@@ -10,17 +10,3 @@
 
 """
 
-from collections import deque
-from queue import Queue
-
-
-a = deque()
-b = Queue()
-a += {"a": 3, "b": 4}
-b.put({"a": 3, "b": 4})
-b.put([1, 2, 3, 4])
-print(a)
-print(a.popleft())
-print(a.pop())
-print(b.get())
-print(b.get())
