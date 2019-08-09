@@ -1,4 +1,4 @@
-from timer import timer
+from note.timer import timer
 
 
 @timer
