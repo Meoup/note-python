@@ -1,7 +1,3 @@
-from note.timer import timer
-
-
-@timer
 def numJewelsInStones(J, S):
 	"""
 	统计J字符串中的字母在S中出现的次数之和

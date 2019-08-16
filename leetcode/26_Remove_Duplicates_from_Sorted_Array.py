@@ -1,7 +1,3 @@
-from note.timer import timer
-
-
-@timer
 def remove_duplicates(nums):
     """
     原地删除数组中重复的元素，并返回最终的数组长度

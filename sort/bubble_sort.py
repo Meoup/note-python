@@ -1,7 +1,3 @@
-from note.timer import timer
-
-
-@timer
 def bubble_sort(nums):
 	"""
 	冒泡排序算法：
