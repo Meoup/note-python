@@ -24,7 +24,11 @@ def calculate(s):
             elif sigh == "*":
                 res.append(res.pop()*num)
             else:
-                res.append(res.pop()//num)
+                temp = res.pop()
+                if temp < 0:
+                    res.append(-(-temp//num))
+                else:
+                    res.append(temp//num)
             sigh = s[i]
             num = 0
     print(res)
@@ -32,4 +36,4 @@ def calculate(s):
 
 
 if __name__ == '__main__':
-    print(calculate("4 + 4 * 2 / 5 + 9 * 2 - 10"))
+    print(calculate("14-3/2"))
