@@ -49,6 +49,6 @@ def get_max(nums):
 
 
 if __name__ == '__main__':
-    print(get_sum([i for i in range(1000)]))
+    print(get_sum([i for i in range(100)]))
     print(get_length([1, 2, 3, 4, 5, 6, 8]))
     print(get_max([8, 2, 3, 12, 3, 4, 19]))

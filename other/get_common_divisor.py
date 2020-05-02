@@ -32,4 +32,5 @@ def get_highest_common_divisor(x, y):
 
 
 if __name__ == '__main__':
-    print(get_highest_common_divisor(160, 64))
+    print(get_highest_common_divisor(161, 64))
+
